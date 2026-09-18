@@ -122,6 +122,12 @@ class student extends person
                 s = students[i];
             }
         }
+
+        if(s == null)
+        {
+            System.out.println("student not present");
+            return;
+        }
         System.out.println("press 1 to update name");
         System.out.println("press 2 to update contact");
         System.out.println("press 3 to update state");
@@ -259,7 +265,13 @@ class main
         //update details
         student.updateDetails(s2.getId());
 
+        // update student with invalid id
+        student.updateDetails(500);
+
         //display students
         student.displayStudents();*/
+
+        
+        
     }
 }

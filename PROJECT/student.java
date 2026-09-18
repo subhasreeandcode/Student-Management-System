@@ -239,7 +239,8 @@ class main
         student s3 = new student(102, 543216789,"balaji",21,"whitefiled","Karnataka");
         student s4 = new student(103, 678954321,"Ghanath", 24,"kadapa","Andhrapradesh");
 
-        /* to test
+        /* to test :
+        
         // add all the students
         student.addStudent(s1);
         student.addStudent(s2);
